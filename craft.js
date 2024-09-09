@@ -20,7 +20,12 @@ function gatherMaterials() {
 }
 
 function craft(recipe) {
-    // return a recipe, make your own
+    /*
+    - Add your code here
+    - Return a final crafted item in the form of a string.
+    - Input will be a 2 dimensional array. Experiment by inputting different recipes in index.html
+    - You can use console.log to debug your code
+    */
 
     return "Item Not Found";
 }
