@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>Crafting Table</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="craft.js"></script>
+</head>
+<body>
+    <div class="crafting-page">
+        <h1>Crafting Table!</h1>
+        <p>Please Only Insert Emojis</p>
+        <div class="crafting-table">
+            <div class="crafting-row">
+                <input type="text" class="crafting-slot" id="11" maxlength="1">
+                <input type="text" class="crafting-slot" id="12" maxlength="1">
+                <input type="text" class="crafting-slot" id="13" maxlength="1">
+            </div>
+            <div class="crafting-row">
+                <input type="text" class="crafting-slot" id="21" maxlength="1">
+                <input type="text" class="crafting-slot" id="22" maxlength="1">
+                <input type="text" class="crafting-slot" id="23" maxlength="1">
+            </div>
+            <div class="crafting-row">
+                <input type="text" class="crafting-slot" id="31" maxlength="1">
+                <input type="text" class="crafting-slot" id="32" maxlength="1">
+                <input type="text" class="crafting-slot" id="33" maxlength="1">
+            </div>
+        </div>
+        <button onclick="gatherMaterials()" class="craft-button">Craft!</button>
+        <p id="output"></p>
+    </div>
+</body>
