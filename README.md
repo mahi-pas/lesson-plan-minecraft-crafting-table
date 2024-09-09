@@ -6,3 +6,5 @@ You will edit the craft() function in craft.js.
 
 You can download the source code and edit it, or you can try [downloading github desktop](https://desktop.github.com/download/) and cloning the repository yourself to make a fork and learn how version control works.
 
+To run the website, just open index.html in a browser of your choice.
+
